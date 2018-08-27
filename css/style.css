@@ -1,0 +1,12 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    
+}
+
+nav {
+    display: flex;
+    background-color: #674582;
+}
