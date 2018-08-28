@@ -1,12 +1,62 @@
 * {
     box-sizing: border-box;
+    margin: 0;
 }
 
-body {
-    
+body { font-family: 'Montserrat', sans-serif;
+
 }
 
-nav {
+.menu {
     display: flex;
     background-color: #674582;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+.menu__itens {
+    display: flex;
+    list-style: none;
+}
+.menu__link {
+    text-decoration: none;
+    padding: 7px;
+    color: #fff;
+}
+
+.menu__logo {
+    width: 249px;
+    height: 69px;
+}
+
+.banner {
+    background-image: url(../img/bg-banner-claro.png);
+    background-size: cover;
+    height: 100vh;
+}
+
+
+.banner__titulo {
+    font-weight: 800;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #fff;
+
+}
+
+.banner__subtitulo {
+    font-size: 24px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.banner__botao {
+    text-decoration: none;
+    background-color: #C083B9;
+    padding: 1.2rem 2.9rem;
+    border-radius: 0.6rem;
+    color: #fff;
+    font-size: 36px;
+    font-weight: 625;
+    text-transform: uppercase;
 }
