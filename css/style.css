@@ -3,8 +3,8 @@
     margin: 0;
 }
 
-body { font-family: 'Montserrat', sans-serif;
-
+body { 
+    font-family: 'Montserrat', sans-serif;
 }
 
 .menu {
@@ -13,6 +13,7 @@ body { font-family: 'Montserrat', sans-serif;
     justify-content: space-evenly;
     align-items: center;
     width: 100%;
+    padding: 32px;
 }
 .menu__itens {
     display: flex;
@@ -29,34 +30,112 @@ body { font-family: 'Montserrat', sans-serif;
     height: 69px;
 }
 
-.banner {
+.header {
     background-image: url(../img/bg-banner-claro.png);
     background-size: cover;
     height: 100vh;
+    margin-top: -1px;
+    display: flex;
+    align-items: flex-end; 
+    padding-bottom: 50px;
+
 }
 
+.banner {
+    width: 74%;
+    margin: 0 auto;
+}
 
 .banner__titulo {
     font-weight: 800;
     font-size: 36px;
     text-transform: uppercase;
     color: #fff;
-
+    padding-bottom: 10px;
 }
 
 .banner__subtitulo {
     font-size: 24px;
     font-weight: 300;
     color: #fff;
+    padding-bottom: 37px;
 }
 
 .banner__botao {
     text-decoration: none;
     background-color: #C083B9;
     padding: 1.2rem 2.9rem;
-    border-radius: 0.6rem;
+    border-radius: 0.7rem;
     color: #fff;
     font-size: 36px;
     font-weight: 625;
     text-transform: uppercase;
+}
+
+.artigo-mulheres {
+    width: 74%;
+    margin: 0 auto;
+}
+
+.artigo-mulheres__titulo {
+    font-family:'Roboto Slab', 'Arial, Helvetica, sans-serif';
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    color: #63458A;
+    padding-top: 10%;
+}
+.personalidades {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    text-align: center;
+
+}
+
+.personalidades__perfil {
+    padding: 5%;
+}
+
+.personalidades__foto {
+    width: 201px;
+    background-color: #674582;
+    border-radius: 10px;
+}
+
+.menu--dark {
+    display: flex;
+    background-color: #323534;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    padding: 53px;
+}
+
+.menu__itens--block {
+    display: block;
+    text-align: center;
+}
+
+.menu__logo--fb {
+    width: 25px;
+    height:  45px;
+}
+
+.footer__copyright {
+    background-color: #292A2A;
+    width: 100%;
+    padding: 13px;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+}
+
+@media (max-width: 1024px) {
+    .banner__botao {
+        padding: 20px 10px;
+        border-radius: 4px;
+        font-size: 22px;
+    }
+
 }
