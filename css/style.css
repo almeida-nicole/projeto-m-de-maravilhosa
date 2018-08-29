@@ -3,7 +3,7 @@
     margin: 0;
 }
 
-body { 
+body {
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -36,7 +36,7 @@ body {
     height: 100vh;
     margin-top: -1px;
     display: flex;
-    align-items: flex-end; 
+    align-items: flex-end;
     padding-bottom: 50px;
 
 }
@@ -87,7 +87,7 @@ body {
 }
 .personalidades {
     display: flex;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
     justify-content: space-around;
     text-align: center;
 
@@ -138,4 +138,74 @@ body {
         font-size: 22px;
     }
 
+}
+/*PÁGINA PERSONALIDADE*/
+
+.header-rita-lee{
+    background-image: url(../img/rita-lee.jpg);
+    background-size: cover;
+    height: 100vh;
+    margin-top: -1px;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 50px;
+
+}
+
+.banner__titulo--rita-lee {
+    color:#fff;
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.principal {
+    width: 74%;
+    margin: 0 auto;
+    color: #63458A;
+}
+
+.introducao__imagem {
+    width: 20%;
+    height: 18%;
+    /* max-width: 200px;
+    max-height: 220px; */
+    margin-right: 12%;
+    padding-bottom: 5%;
+}
+
+.introducao__sobre {
+    display: flex;
+    align-items: center;
+}
+
+.introducao__titulo {
+    font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 4%
+}
+
+.introducao__citacao {
+    border: 1px solid black;
+    width: 100%;
+    padding: 5%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.resumo {
+    padding-top: 5%;
+    text-align: justify;
+}
+
+.resumo__titulo {
+    padding-bottom: 2%;
+    font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
+}
+
+.resumo__imagem {
+    padding-top: 2%;
+    width: 70%;
 }
