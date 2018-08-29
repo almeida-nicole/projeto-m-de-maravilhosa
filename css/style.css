@@ -154,7 +154,7 @@ body {
     .menu__itens {
         display: none;
     }
-      
+
     .menu__redes-sociais {
           display: none;
     }
@@ -164,7 +164,7 @@ body {
         justify-content: center;
         align-items: center;
     }
-    
+
     .menu__mobile {
         display: block;
         width: 35px;
@@ -180,7 +180,7 @@ body {
         justify-content: center;
         align-items: center;
     }
-    
+
     .banner_botao {
         padding: 10px 15px;
         border-radius: 4px;
@@ -196,7 +196,7 @@ body {
     }
 
     .artigo-mulheres__titulo {
-        font-size: 15px   
+        font-size: 15px
     }
 
     .personalidades__foto {
@@ -280,12 +280,12 @@ body {
     width: 70%;
 }
 
-.autora__sobre { 
+.autora__sobre {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #e4b7e5;
-    margin-top: 4%; 
+    margin-top: 4%;
 }
 
 .autora__imagem {
@@ -321,7 +321,7 @@ body {
     padding: 10px 30px;
     border-radius: 5px;
 
-} 
+}
 
 /*PERSONALIDADE MEDIA QUERY TABLET*/
 @media (max-width: 768px) {
@@ -351,7 +351,7 @@ body {
     .menu__logo--fb {
     width: 20px;
     height: 35px;
-    } 
+    }
 
 }
 
@@ -359,11 +359,28 @@ body {
 @media (max-width: 420px) {
     .header-rita-lee {
         background-position: bottom;
-}
+    }
     .introducao__imagem {
         padding-bottom: 4%;
     }
     .introducao__sobre {
             text-align: justify;
             display: block;
+    }
+    .introducao__imagem {
+        text-align: center;
+    }
+    .autora__imagem {
+        width: 25%;
+    }
+    .autora__sobre {
+        font-size: 13px;
+    }
+    .botao__pink {
+        font-size: 15px;
+        border-radius: 6px;
+    }
+    .menu__logo {
+        width: 200px;
+        height: auto;
     }
