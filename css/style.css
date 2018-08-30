@@ -173,6 +173,7 @@ body {
 
       .menu-dark {
         flex-direction: column;
+        font-size: 15px;
     }
 
       .menu {
@@ -181,7 +182,7 @@ body {
         align-items: center;
     }
 
-    .banner_botao {
+    .banner__botao {
         padding: 10px 15px;
         border-radius: 4px;
         font-size: 15px;
@@ -339,22 +340,15 @@ body {
       margin-left: 12px;
     }
 
-    .menu-dark {
-      flex-direction: column;
-    }
-
-    .menu {
-      display: flex;
-      align-items: center;
-    }
-
     .menu__logo--fb {
     width: 20px;
     height: 35px;
     }
-
+    .menu__logo {
+    width: 200px;
+    height: auto;
 }
-
+}
 /*PERSONALIDADE MEDIA QUERY MOBILE*/
 @media (max-width: 420px) {
     .header-rita-lee {
@@ -364,8 +358,8 @@ body {
         padding-bottom: 4%;
     }
     .introducao__sobre {
-            text-align: justify;
-            display: block;
+        text-align: justify;
+        display: block;
     }
     .introducao__imagem {
         text-align: center;
@@ -384,3 +378,8 @@ body {
         width: 200px;
         height: auto;
     }
+    .menu__logo--fb {
+        width: 15px;
+        height: 28px;
+    }
+}
